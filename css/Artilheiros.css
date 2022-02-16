@@ -222,6 +222,19 @@ input {
   color: #fff;
 }
 
+.cinza {
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+
+.penal {
+  margin-left: -5px;
+}
+
+.penalfoto {
+  margin-right: 40px !important;
+}
+
 .img-80-80 {
   width: 30px;
   margin-right: 40px;
@@ -246,6 +259,10 @@ input {
 
 .espec {
   margin-left: -33px;
+}
+
+.especpenal {
+  margin-left: -28px;
 }
 
 .placar {
@@ -292,10 +309,13 @@ input {
   width: 8% !important;
 }
 
-@media (min-width: 435px) and (max-width: 498px) {
+@media (min-width: 420px) and (max-width: 498px) {
   .placar {
     font-size: 1em;
     padding-left: 20px;
+  }
+  .especpenal {
+    margin-left: 0px !important;
   }
 }
 
