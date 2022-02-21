@@ -231,6 +231,10 @@ input {
   margin-left: -5px;
 }
 
+.penaltrof {
+  margin-left: 11px;
+}
+
 .penalfoto {
   margin-right: 40px !important;
 }
@@ -265,8 +269,16 @@ input {
   margin-left: -28px;
 }
 
+.especpenaltrof {
+  margin-left: -20px;
+}
+
 .placar {
   padding-left: 23px;
+}
+
+.placartrof {
+  padding-left: 17px;
 }
 
 .explicaçoes {
@@ -313,9 +325,6 @@ input {
   .placar {
     font-size: 1em;
     padding-left: 20px;
-  }
-  .especpenal {
-    margin-left: 0px !important;
   }
 }
 
